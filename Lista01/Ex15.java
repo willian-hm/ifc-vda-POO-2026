@@ -36,7 +36,7 @@ public class Ex15 {
             menoresColunas[j] = menor;
         }
 
-        System.out.println("\nRESULTADOS");
+        System.out.println("\nRESULTADOS: ");
         
         System.out.println("\nMatriz Gerada:");
         for (int i = 0; i < 7; i++) {
