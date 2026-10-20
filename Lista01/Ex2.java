@@ -1,19 +1,21 @@
 import java.util.Scanner;
 
-public class CalculoEnergia {
+public class Ex2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         
-        System.out.print("Digite o valor do salário mínimo: ");
-        double salarioMinimo = entrada.nextDouble();
+        System.out.print("Digite o número de horas trabalhadas: ");
+        double horasTrabalhadas = entrada.nextDouble();
         
-        System.out.print("Digite a quantidade de quilowatts consumida: ");
-        double quantidadeKw = entrada.nextDouble();
+        System.out.print("Digite o valor da hora trabalhada: ");
+        double valorHora = entrada.nextDouble();
         
-        double valorKw = salarioMinimo * 0.01; 
-        double valorTotal = valorKw * quantidadeKw;
-        
-        System.out.println("Valor de cada quilowatt: R$ " + valorKw);
-        System.out.println("Valor total a ser pago: R$ " + valorTotal);
+        double salarioBruto = horasTrabalhadas * valorHora;
+        double imposto = salarioBruto * 0.30;
+        double salarioReceber = salarioBruto - imposto;
+ 
+        System.out.println("Salário Bruto: R$ " + salarioBruto);
+        System.out.println("Imposto (30%): R$ " + imposto);
+        System.out.println("Salário a receber: R$ " + salarioReceber);
     }
 }

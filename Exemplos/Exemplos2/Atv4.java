@@ -1,3 +1,4 @@
+package Exemplos2;
 /* Faça um programa que receba
 • O código do produto comprado;
 • A quantidade comprada do produto

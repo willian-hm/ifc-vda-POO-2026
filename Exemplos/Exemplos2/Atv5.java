@@ -1,3 +1,4 @@
+package Exemplos2;
 /* Em um campeonato de futebol existem cinco times e cada um possui 11 jogadores.
 Faça um programa que receba a idade, o peso e a altura de cada um dos jogadores,
 calcule e mostre:

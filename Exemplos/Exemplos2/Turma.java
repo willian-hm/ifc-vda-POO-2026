@@ -1,3 +1,4 @@
+package Exemplos2;
 
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+package Exemplos2;
 /* Leia os 03 ângulos e os 03 lados de um triângulo, e classifique-o como: retângulo,
 obtusângulo ou acutângulo; e equilátero, escaleno ou isósceles. */
 

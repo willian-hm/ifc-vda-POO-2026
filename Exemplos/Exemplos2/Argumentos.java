@@ -1,3 +1,4 @@
+package Exemplos2;
 public class Argumentos {
     
     public static void main(String[] args) {
