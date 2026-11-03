@@ -1,11 +1,9 @@
 public class Cabeleleila {
-    private String nomeFilial;
     private Cliente[] filaEspera;
     private int posicaoFila; 
     private final static int TAM_FILA = 10;
 
     public Cabeleleila (String nomeFilial) {
-            this.nomeFilial = nomeFilial;
             this.filaEspera = new Cliente[TAM_FILA];
        
     }

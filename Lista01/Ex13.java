@@ -53,5 +53,6 @@ public class Ex13 {
             System.out.print(result2[i] + "  ");
         }
         System.out.println();
+        entrada.close();
     }
 }

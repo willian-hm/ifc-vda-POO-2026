@@ -58,5 +58,6 @@ public class Ex12 {
             }
             System.out.println();
         }
+        entrada.close();
     }
 }

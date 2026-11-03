@@ -96,6 +96,6 @@ public class Ex8 {
                 System.out.println(moedas10 + " moeda(s) de 10 centavos");
             }
         }
-
+        entrada.close();
     }
 }

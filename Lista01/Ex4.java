@@ -3,15 +3,15 @@ import java.util.Scanner;
 public class Ex4 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        int quantidade;
+        double precoUnitario = 0;
 
         for (;;) {
             System.out.print("Digite o código do produto (1 a 40): ");
             int codigo = entrada.nextInt();
 
             System.out.print("Digite a quantidade comprada: ");
-            int quantidade = entrada.nextInt();
-
-            double precoUnitario = 0;
+            quantidade = entrada.nextInt();
 
             if (codigo >= 1 && codigo <= 10) {
                 precoUnitario = 10.00;
@@ -47,6 +47,6 @@ public class Ex4 {
         System.out.println("Preço Total da Nota: R$ " + precoTotal);
         System.out.println("Valor do Desconto: R$ " + valorDesconto);
         System.out.println("Preço Final: R$ " + precoFinal);
-
+        entrada.close();
     }
 }

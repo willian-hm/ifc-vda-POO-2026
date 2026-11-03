@@ -30,5 +30,6 @@ public class Ex7 {
             
             System.out.println("Fatorial de " + i + "! = " + fatorial);
         }
+        entrada.close();
     }
 }

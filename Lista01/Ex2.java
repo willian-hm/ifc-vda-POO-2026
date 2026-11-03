@@ -17,5 +17,6 @@ public class Ex2 {
         System.out.println("Salário Bruto: R$ " + salarioBruto);
         System.out.println("Imposto (30%): R$ " + imposto);
         System.out.println("Salário a receber: R$ " + salarioReceber);
+        entrada.close();
     }
 }

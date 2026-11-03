@@ -25,6 +25,6 @@ public class Ex9 {
         } else {
             System.out.println("O número " + numero + " NÃO É PRIMO.");
         }
-
+        entrada.close();
     }
 }

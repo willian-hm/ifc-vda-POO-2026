@@ -29,5 +29,6 @@ public class Ex10 {
         }
 
         System.out.println("\nResumo: Você digitou " + quantidadePrimos + " número(s) primo(s)");
+        entrada.close();
     }
 }

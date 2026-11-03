@@ -55,5 +55,7 @@ public class Ex15 {
         for (int j = 0; j < 7; j++) {
             System.out.println("Coluna " + j + ": " + menoresColunas[j]);
         }
+
+        entrada.close();
     }
 }

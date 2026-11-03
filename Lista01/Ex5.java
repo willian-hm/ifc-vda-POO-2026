@@ -10,18 +10,19 @@ public class Ex5 {
         int totalJogadores = 5 * 11;
 
         for (int i = 1; i <= 5; i++) {
+            int time = i;
             System.out.println("\nDados do Time: " + time);
             double somaIdadeTime = 0;
 
             for (int jogador = 1; jogador <= 11; jogador++) {
                 System.out.println("Jogador " + jogador + ":");
-                
+
                 System.out.print("  Idade: ");
                 int idade = entrada.nextInt();
-                
+
                 System.out.print("  Peso (kg): ");
                 double peso = entrada.nextDouble();
-                
+
                 System.out.print("  Altura (m): ");
                 double altura = entrada.nextDouble();
 
@@ -29,7 +30,7 @@ public class Ex5 {
                 if (idade < 18) {
                     qtdeMenores18++;
                 }
-                
+
                 if (peso > 80.0) {
                     qtdeMais80kg++;
                 }
@@ -48,5 +49,6 @@ public class Ex5 {
         System.out.println("Quantidade de jogadores com idade inferior a 18 anos: " + qtdeMenores18);
         System.out.println("Média das alturas de todos os jogadores: " + mediaAlturaGeral + " m");
         System.out.println("Porcentagem de jogadores com mais de 80kg: " + porcentagemMais80kg + "%");
+        entrada.close();
     }
 }

@@ -35,5 +35,6 @@ public class Ex3 {
         } else {
             System.out.println("Quanto aos lados: Escaleno");
         }
+        entrada.close();
     }
 }

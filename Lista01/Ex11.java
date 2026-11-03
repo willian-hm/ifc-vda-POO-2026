@@ -27,5 +27,6 @@ public class Ex11 {
             
             linhas++;
         }
+        entrada.close();
     }
 }
