@@ -1,0 +1,3 @@
+public enum Rotulo {
+    PESSOAL, PROFISSIONAL, EMERGENCIA, CASA, TRABALHO, CELULAR;
+}
